@@ -16,7 +16,6 @@
       <a href="#industry-and-labs">Industry</a>
       <a href="#design-and-development">Design</a>
       <a href="#grit-and-leadership">Grit</a>
-      <a href="#robot">Robot</a>
     </div>
   </div>
 </nav>
@@ -24,6 +23,7 @@
 <header class="banner" id="home">
   <img src="assets/home-1.jpg" alt="Purdue archway">
   <div class="banner-text">
+    <p class="banner-eyebrow">Purdue University · Class of 2028</p>
     <h1>BENJAMIN CAPELLE 2026 PORTFOLIO</h1>
     <div class="banner-rule"></div>
     <p>Robotic Engineering Technology, hardware, embedded electronics, and software</p>
@@ -33,10 +33,10 @@
 <main>
 <section class="section" id="about">
   <div class="container">
+    <h2>About Me</h2>
     <div class="row">
       <figure><img src="assets/about-me.png" alt="Benjamin Capelle"></figure>
       <div class="text">
-        <h2>About Me</h2>
         <p>I am studying Robotic Engineering Technology at Purdue University. I enjoy learning to connect hardware, embedded electronics, and software. Right now, I am working in Purdue's MARS Lab on tactile sensing and robotic grippers, spending my time in CAD, writing code, and testing physical prototypes. After graduation, I plan to move to the Roanoke-Blacksburg VA area to focus on soft and bio-inspired robotics, building compliant, reliable mechanisms that can handle the real world.</p>
       </div>
     </div>
@@ -108,6 +108,18 @@
     </div>
     <div class="cards2">
       <div class="card">
+        <figure><video autoplay loop muted playsinline controls src="assets/lab12-procedure5.mp4"></video></figure>
+        <h3>ECET 179 Lab 12, Procedure 5</h3>
+        <p>Three potentiometers feed ADC channels 0, 1, and 2, and the ATmega2560 drives the RGB LED with three Timer3 PWM channels. Turning a pot changes one color, red, green, or blue. The code is shown at the end of the video.</p>
+      </div>
+      <div class="card">
+        <figure><video autoplay loop muted playsinline controls src="assets/lab12-procedure6.mp4"></video></figure>
+        <h3>ECET 179 Lab 12, Procedure 6</h3>
+        <p>Four push buttons replace the pots. Three set a fixed color, red, green, or blue, and the fourth starts an automatic fade that drifts the LED through the colors until another button is pressed. The code is shown at the end of the video.</p>
+      </div>
+    </div>
+    <div class="cards2">
+      <div class="card">
         <figure><img src="assets/industry-4.jpg" alt="Relay-based control circuit"></figure>
         <h3>Relay-Based Control Circuit</h3>
         <p>Double relay-based control circuit with interlock stage control, and status indicator lights for system feedback.</p>
@@ -134,8 +146,7 @@
 <section class="section" id="design-and-development">
   <div class="container">
     <h2>Design and Development</h2>
-<section class="section" id="robot">
-  <div class="container">
+<div class="robot-block" id="robot">
     <h2>Personal 6-DOF Robot</h2>
     <p>A personal project. I designed and built a 6-joint robot arm from scratch, including the CAD model, the kinematics, and a 3D animation.</p>
     <ul>
@@ -159,8 +170,7 @@
         <iframe src="robot-viewer.html" title="Personal 6-DOF Robot Interactive Viewer"></iframe>
       </figure>
     </div>
-  </div>
-</section>
+</div>
     <div class="cards2">
       <div class="card cam-cleat">
         <figure><img src="assets/design-1.png" alt="Cam cleat cord lock"></figure>
