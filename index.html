@@ -78,6 +78,21 @@
   </div>
 </section>
 
+<section class="section" id="papers-and-sites">
+  <div class="container">
+    <h2>Papers and Sites</h2>
+    <h3>PhoTac Wedge</h3>
+    <p>I helped shorten the PhoTac Wedge paper from 38 to 11 pages, designed images for it, and built about 85% of the project site, including the animations. The paper and site are not released yet.</p>
+    <h3>LuxTac</h3>
+    <div class="row wide-image">
+      <figure><a href="https://luxtac.github.io/"><img src="assets/luxtac-site.jpg" alt="LuxTac project site"></a></figure>
+      <div class="text">
+        <p>I helped with the LuxTac paper, which is not released yet, and constructed about 80% of the project site, which is live at <a href="https://luxtac.github.io/">luxtac.github.io</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section alt" id="industry-and-labs">
   <div class="container">
     <h2>Industry and Labs</h2>
@@ -118,7 +133,7 @@
         <p>Four push buttons replace the pots. Three set a fixed color, red, green, or blue, and the fourth starts an automatic fade that drifts the LED through the colors until another button is pressed. The code is shown at the end of the video.</p>
       </div>
     </div>
-    <div class="cards2">
+    <div class="cards2 industry-cards">
       <div class="card">
         <figure><img src="assets/industry-4.jpg" alt="Relay-based control circuit"></figure>
         <h3>Relay-Based Control Circuit</h3>
@@ -210,7 +225,7 @@
         <img id="sketch-img" src="assets/design-carousel-1.jpg" alt="Visual Studies sketch">
         <button class="prev" onclick="sketchPrev()">&#8249;</button>
         <button class="next" onclick="sketchNext()">&#8250;</button>
-        <div class="carousel-count" id="sketch-count">1 of 10</div>
+        <div class="carousel-count" id="sketch-count">1 of 8</div>
       </div>
       <div class="text">
         <h3>Visual Studies: Communication Through Spatial and Observational Sketching</h3>
@@ -235,22 +250,57 @@
     </div>
     <h3>Before and After Gallery</h3>
     <div class="gallery2">
-      <figure><figcaption>Before</figcaption><img src="assets/grit-2.jpg" alt="Before photo"></figure>
-      <figure><figcaption>Before</figcaption><img src="assets/grit-3.jpg" alt="Before photo"></figure>
-      <figure><figcaption>Before</figcaption><img src="assets/grit-4.jpg" alt="Before photo"></figure>
-      <figure><figcaption>Before</figcaption><img src="assets/grit-5.jpg" alt="Before photo"></figure>
-      <figure><figcaption>After</figcaption><img src="assets/grit-6.jpg" alt="After photo"></figure>
-      <figure><figcaption>After</figcaption><img src="assets/grit-7.jpg" alt="After photo"></figure>
-      <figure><figcaption>After</figcaption><img src="assets/grit-8.jpg" alt="After photo"></figure>
-      <figure><figcaption>After</figcaption><img src="assets/grit-9.jpg" alt="After photo"></figure>
-      <figure><figcaption>Before</figcaption><img src="assets/grit-10.jpg" alt="Before photo"></figure>
-      <figure><figcaption>After</figcaption><img src="assets/grit-11.jpg" alt="After photo"></figure>
-      <figure><figcaption>During</figcaption><img src="assets/grit-12.jpg" alt="During photo"></figure>
-      <figure><figcaption>After</figcaption><img src="assets/grit-13.jpg" alt="After photo"></figure>
+      <figure class="pair">
+        <div class="pair-label">Before</div>
+        <img src="assets/grit-2.jpg" alt="Before photo">
+        <div class="pair-label">After</div>
+        <img src="assets/grit-6.jpg" alt="After photo">
+      </figure>
+      <figure class="pair">
+        <div class="pair-label">Before</div>
+        <img src="assets/grit-3.jpg" alt="Before photo">
+        <div class="pair-label">After</div>
+        <img src="assets/grit-7.jpg" alt="After photo">
+      </figure>
+      <figure class="pair">
+        <div class="pair-label">Before</div>
+        <img src="assets/grit-4.jpg" alt="Before photo">
+        <div class="pair-label">After</div>
+        <img src="assets/grit-8.jpg" alt="After photo">
+      </figure>
+      <figure class="pair">
+        <div class="pair-label">Before</div>
+        <img src="assets/grit-5.jpg" alt="Before photo">
+        <div class="pair-label">After</div>
+        <img src="assets/grit-9.jpg" alt="After photo">
+      </figure>
+      <figure class="pair pair-horizontal">
+        <div class="pair-half">
+          <div class="pair-label">Before</div>
+          <img src="assets/grit-10.jpg" alt="Before photo">
+        </div>
+        <div class="pair-half">
+          <div class="pair-label">After</div>
+          <img src="assets/grit-11.jpg" alt="After photo">
+        </div>
+      </figure>
+      <figure class="pair pair-horizontal">
+        <div class="pair-half">
+          <div class="pair-label">During</div>
+          <img src="assets/grit-12.jpg" alt="During photo">
+        </div>
+        <div class="pair-half">
+          <div class="pair-label">After</div>
+          <img src="assets/grit-13.jpg" alt="After photo">
+        </div>
+      </figure>
     </div>
-    <h3>Press and Marketing</h3>
-    <div class="row wide-image" style="margin-top: 16px;">
-      <figure><img src="assets/grit-14.jpg" alt="Press and Marketing newspaper clipping"></figure>
+    <div class="row wide-image">
+      <div>
+        <h3>Press and Marketing</h3>
+        <p>Getting the word out took a mix of tactics. I made 10 Facebook posts, put out yard signs, knocked on about 2,500 doors, handed out flyers, and made cold calls. The branch was also covered in newspaper articles in the Lebanon Reporter and The Paper of Montgomery County.</p>
+        <figure><img src="assets/grit-14.jpg" alt="Press and Marketing newspaper clipping"></figure>
+      </div>
       <figure><img src="assets/grit-15.jpg" alt="Marketing flyer"></figure>
     </div>
   </div>
@@ -288,7 +338,7 @@
 </footer>
 
 <script>
-var sketches = ["assets/design-carousel-1.jpg","assets/design-carousel-2.jpg","assets/design-carousel-3.png","assets/design-carousel-4.jpg","assets/design-carousel-5.jpg","assets/design-carousel-6.jpg","assets/design-carousel-7.jpg","assets/design-carousel-8.jpg","assets/design-carousel-9.jpg","assets/design-carousel-10.jpg"];
+var sketches = ["assets/design-carousel-1.jpg","assets/design-carousel-10.jpg","assets/design-carousel-3.png","assets/design-carousel-5.jpg","assets/design-carousel-9.jpg","assets/design-carousel-6.jpg","assets/design-carousel-7.jpg","assets/design-carousel-8.jpg"];
 var sketchIndex = 0;
 function sketchShow() {
   document.getElementById("sketch-img").src = sketches[sketchIndex];
